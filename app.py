@@ -362,6 +362,3 @@ with tabs[5]:
     st.markdown("**Regression Results (MSE and R² Score):**")
     for name, (mse, r2) in reg_results.items():
         st.text(f"{name}: MSE = {mse:.2f}, R² = {r2:.2f}")
-
-st.markdown("---")
-st.markdown("Built with ❤️ by Sangam S Bhamare 2025")
